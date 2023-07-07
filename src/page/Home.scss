@@ -1,0 +1,120 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+ 
+}
+
+.Box {
+  width: 200rem;
+  padding: 20px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10rem;
+  width: 150rem;
+  height:85vh;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+button{
+  background-color: #9e0c39;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+}
+
+.buttons svg {
+  cursor: pointer;
+}
+
+.underbox {
+  height: 100px;
+}
+
+/* React Stepper Horizontal */
+.stepper-horizontal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stepper-horizontal .step {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepper-horizontal .step .title {
+  margin-top: 10px;
+}
+
+.stepper-horizontal .step:first-child .title {
+  margin-left: 0;
+}
+
+.stepper-horizontal .step:last-child .title {
+  margin-right: 0;
+}
+
+.stepper-horizontal .step.active .title {
+
+  font-weight: bold;
+}
+
+.stepper-horizontal .line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.stepper-horizontal .line.active {
+  background-color: #9e0c39;
+}
+
+.stepper-horizontal .line:last-child {
+  display: none;
+}
+
+.stepper-horizontal .line.active:last-child {
+  display: block;
+}
+
+.stepper-horizontal .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepper-horizontal .circle.active {
+  background-color: #9e0c39;
+}
+
+.stepper-horizontal .circle .title {
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}

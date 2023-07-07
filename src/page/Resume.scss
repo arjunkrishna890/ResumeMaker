@@ -1,0 +1,127 @@
+.resume {
+    width: 1000px;
+    margin: 8rem auto;
+  
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    .resume-header {
+      text-align: center;
+      
+      h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+    
+      h3 {
+        font-size: 17px;
+        margin-bottom: 20px;
+      }
+    }
+    
+    .resume-divider {
+      border-top: 1px solid #9e0c39;
+      border-bottom: 1px solid #16222c;
+      margin: 40px 0;
+    }
+    
+    .resume-content {
+      display: flex;
+      
+      .left-side {
+        width: 30%;
+        
+        .profile-picture {
+          text-align: center;
+          
+          img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        
+        .contact-details {
+          ul {
+            list-style-type: none;
+            padding: 0;
+            
+            li {
+              font-size: 14px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        
+        .social-icons {
+          ul {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            list-style-type: none;
+            
+            li {
+              margin: 0 5px;
+              
+              a {
+                color: #000;
+                font-size: 24px;
+                
+                &:hover {
+                  color: #9e0c39;
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      .right-side {
+        width: 70%;
+        
+        .resume-section {
+          margin-bottom: 30px;
+          
+          h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          
+          .resume-item {
+            margin-bottom: 15px;
+            
+            h4 {
+              font-size: 18px;
+              margin-bottom: 5px;
+            }
+            
+            p {
+              font-size: 16px;
+              margin-bottom: 5px;
+            }
+            
+            .date {
+              font-size: 14px;
+              color: #777;
+              margin-bottom: 5px;
+            }
+            
+            .resume-item-bullet-points {
+              margin-top: 5px;
+              margin-left: 20px;
+              font-size: 16px;
+              line-height: 1.4;
+              
+              li {
+                margin-bottom: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

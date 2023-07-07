@@ -1,0 +1,202 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50vh;
+  .leftside {
+
+
+    .section1 {
+      margin-bottom: 20px;
+  
+      .inputfield {
+        margin-bottom: 10px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+      }
+  
+      .age {
+        margin-left: 10px;
+      }
+  
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  
+    .inputfield-2 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+  
+      .phonelabel {
+        margin-left: 10px;
+      }
+  
+      .phone {
+        width: 100px;
+        margin-left: 10px;
+      }
+    }
+  
+    .inputfield-4 {
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+    }
+  
+    .section2 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+  
+      .languages {
+        margin-bottom: 10px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+  
+        input[type='text'] {
+          width: 80%;
+        
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+  
+        button {
+          background-color: #9e0c39;
+          color: #fff;
+          padding: 8px 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #750925;
+          }
+        }
+      }
+  
+      .skills {
+        margin-bottom: 10px;
+  
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+  
+        input[type='text'] {
+          width: 80%;
+          margin-top: 7px;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+  
+        button {
+          background-color: #9e0c39;
+          color: #fff;
+          padding: 8px 16px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #750925;
+          }
+        }
+      }
+    }
+  }
+  .headerDivider {
+    border-left:1px solid #9e0c39;
+    border-right:1px solid #16222c; 
+    height:500px;
+    margin-left: 2rem;
+    right:249px;
+    top:10px; 
+}
+  .rightside {
+    margin-left: 2rem;
+    label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type='text'] {
+        width: 80%;
+        margin-top: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+     textarea {
+        width: 100%;
+        margin-top: 14rem;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .education{
+        .educational-details{
+            height: 20vh;
+            
+        }
+      }
+  }
+  .extreme-right{
+    margin-left: 2rem;
+    label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type='text'] {
+        width: 80%;
+        margin-top: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .education{
+        .educational-details{
+            height: 20vh;
+            
+        }
+      }
+
+  }
+  
+  button {
+    background-color: #9e0c39;
+    margin-top: 2vh;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #750925;
+    }
+  }
+}
